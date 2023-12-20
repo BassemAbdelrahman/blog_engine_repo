@@ -10,11 +10,10 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
-    <%= form.label :author_name %><br>
+  <div>
+    <%= form.label :author_name, style: "display: block" %>
     <%= form.text_field :author_name %>
   </div>
-
   <div>
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
