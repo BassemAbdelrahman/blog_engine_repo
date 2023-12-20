@@ -54,7 +54,7 @@ module BlogEngineRepo
 
       # Only allow a list of trusted parameters through.
       def post_params
-        params.require(:post).permit(:title, :text, :author_name)
+        params.require(:post).permit(:title, :body, :author_name)
       end
   end
 end
